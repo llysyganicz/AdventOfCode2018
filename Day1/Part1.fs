@@ -5,5 +5,5 @@ module Part1
     let lines = File.ReadLines("input.txt")
     lines |> Seq.map(fun x -> int x)
 
-  let getFrequency() =
+  let getResult() =
     getData() |> Seq.sum
